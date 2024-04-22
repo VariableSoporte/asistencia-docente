@@ -1,3 +1,9 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     height: 100vh;
     width: 100vw;
@@ -6,14 +12,14 @@
     padding: 0;
 }
 
-.fondo {
-    height: 100%;
-    width: 100%;
-}
 
 #container-i {
-    width: 40vw;
-    background: red;
+    width: 30vw;
+    background: linear-gradient(to bottom, rgb(181,0,25), rgb(101,0,0));
+}
+
+#container-d {
+    width: 70vw;
 }
 
 #img-logo {
@@ -23,12 +29,20 @@
 }
 
 #img-fondo-login {
-    width: 100%;
-    height: 100%;
+    width: 70vw;
+    height: 100vh;
+}
+#img-icono-uta {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 200px;
+    height: 200px;
 }
 #mision{
     color: rgb(255, 255, 255);
-    float: right;
+    margin-right: 10px;
+    text-align: right;
 }
 #passwordHelpBlock {
     color: rgb(255, 255, 255);
@@ -44,11 +58,15 @@
     color: rgb(255, 255, 255);
 }
 .fondo-gris{
-    background: rgba(137, 123, 123, 0.699);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    background: linear-gradient(to bottom, rgb(194,184,190), rgb(110,104,108));
 
 }
-
-body {
-    margin: 0;
-    padding: 0;
+.texto-justificado{
+    margin: 15px;
+    font-size: 24px;
+    font-weight:500;
 }
