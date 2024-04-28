@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <p>Nombres: </p>
+    <p id="nombres">vacio</p>
+
+    <script>
+        document.addEventListener("DOMContentLoaded",function(){
+            var nombre = localStorage.getItem('nombres');
+            document.getElementById('nombres').innerText = nombre;
+
+            localStorage.removeItem('nombres');
+        })
+    </script>
+</body>
+</html>
