@@ -1,0 +1,53 @@
+.navbar {
+    background-color: rgb(200, 2, 2) ;
+    height: 15vh;
+}
+
+
+.navbar-brand{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px 20px;;
+}
+
+.btn-salir{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    width: 15vw;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    background-color: rgb(200, 2, 2) ;
+}
+
+.btn-salir:hover{
+    background-color: rgb(179, 29, 29);
+    border: 3px solid rgb(255, 255, 255);
+}
+.back-imagen{
+    height: 85vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url('../img/Escudo.png');
+    background-size: 40vw 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(0 ,0 ,0, 0.3);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dimension{
+    height: 60vh;
+    width: 50vw;
+    background-color: rgb(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+}
+.letra-size{
+    font-size: 70px;
+}
+.letra-size-hora{
+    font-size: 120px;
+}
